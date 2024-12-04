@@ -1,13 +1,25 @@
-import './App.css'
+import './App.css';
+import {BrowserRouter ,Routes, Route} from "react-router-dom";
+import Home from './compoments/Home.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Home" element={<Home />}/>
+          <Route path="/About" element={<About />}/>
+          <Route path="/Skills" element={<Skills />}/>
+          <Route path="/Projects" element={<Projects />}/>
+          <Route path ="/Contact" element={<Contact />}/>
+        </Routes>
+      </BrowserRouter>
+
+    </div>
   )
 }
+
+
 
 export default App
