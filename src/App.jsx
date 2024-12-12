@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route className="text-gray-700 hover:text-blue-600" path="/" element={<Langing/>}/>
-          <Route className="text-gray-700 hover:text-blue-600" path="/Home" element={<Home />}/>
+          <Route  path="/Home" element={<Home />}/>
           <Route path="/About" element={<About />}/>
           <Route path="/Skills" element={<Skills />}/>
           <Route path="/Projects" element={<Projects />}/>
