@@ -16,3 +16,32 @@ npm create vite@latest my-app -- --template react-vite
 ````bash`````
 npm install reacr-router-don
 `````
+
+`````bash``````
+npm create vite@latest my-app -- --template react-vite
+cd my-app
+npm start
+`````
+
+## Project Setup
+
+````bash````
+npm install
+````
+
+
+
+
+````bash````
+npm run dev
+````
+
+
+## install tailwindcss locally
+
+````bash````
+ npm install -D tailwindcss postcss autoprefixer
+
+ npx tailwindcss init -p
+
+ `````
