@@ -5,7 +5,7 @@ import About from './compoments/pages/About'
 import Skills from './compoments/pages/Skills'
 import Projects from './compoments/pages/Project'
 import Contact from './compoments/pages/Contact'
-import Langing from './compoments/pages/Landing'
+
 
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
     <div className='h-screen bg-blue-300'>
       <BrowserRouter>
         <Routes>
-          <Route className="text-gray-700 hover:text-blue-600" path="/" element={<Langing/>}/>
-          <Route  path="/Home" element={<Home />}/>
+          <Route  path="/" element={<Home />}/>
           <Route path="/About" element={<About />}/>
           <Route path="/Skills" element={<Skills />}/>
           <Route path="/Projects" element={<Projects />}/>

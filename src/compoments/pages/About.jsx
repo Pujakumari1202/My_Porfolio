@@ -1,7 +1,9 @@
+import Navbar from '../Navbar/Navbar'
 function About() {
     return (
         <div>
-            <h1>About</h1>
+            <Navbar />
+            <h1 className='text-white'>About</h1>
         </div>
     )
 }       
